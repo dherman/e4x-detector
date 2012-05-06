@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ "$#" -ne "2" ]; then
+  echo "usage: e4x-detector SHELL INPUT"
+  echo "  SHELL   path to SpiderMonkey shell"
+  echo "  INPUT   XPI or JS source file"
+  exit 1
+fi
+
+if which python >/dev/null ; then
+  node -e "require('e4x-detector').report(process.argv[1], process.argv[2])" $* | python -mjson.tool
+else
+  node -e "require('e4x-detector').report(process.argv[1], process.argv[2])" $*
+fi

@@ -1,0 +1,42 @@
+{
+  "name": "e4x-detector",
+  "version": "0.0.1",
+  "description": "Reporting tool for finding uses of E4X in Firefox addons or JS scripts.",
+  "keywords": [
+    "firefox",
+    "addon",
+    "xpi",
+    "analysis",
+    "e4x"
+  ],
+  "homepage": "https://github.com/dherman/e4x-detector",
+  "author": "Dave Herman <dherman@mozilla.com> (https://github.com/dherman)",
+  "bugs": {
+    "email": "dherman@mozilla.com",
+    "url": "https://github.com/dherman/e4x-detector/issues"
+  },
+  "license": "MIT",
+  "main": "lib/e4x-detector.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dherman/e4x-detector.git"
+  },
+  "scripts": {
+    "e4x-detector": "./bin/e4x-detector"
+  },
+  "engine": {
+    "node": ">=0.6.17"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "spidermonkey": "0.0.x",
+    "xpi": "0.1.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
