@@ -1,6 +1,6 @@
 {
   "name": "e4x-detector",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Reporting tool for finding uses of E4X in Firefox addons or JS scripts.",
   "keywords": [
     "firefox",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "nkima": "0.0.x",
-    "spidermonkey": "0.0.x",
+    "spidermonkey": "0.1.x",
     "xpi": "0.1.x"
   },
   "devDependencies": {},
