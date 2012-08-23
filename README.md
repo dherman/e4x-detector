@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/dherman/e4x-detector.png)](http://travis-ci.org/dherman/e4x-detector)
 ## E4X detector
 
 Searches a Firefox addon XPI or JS source file for uses of E4X.
